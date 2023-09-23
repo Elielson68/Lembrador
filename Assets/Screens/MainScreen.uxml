@@ -7,6 +7,5 @@
         <ui:Toggle label="Toggle" name="middle-text" class="main-text" />
         <ui:Toggle label="Toggle" name="bottom-text" class="bottom-text" />
         <ui:Toggle label="Toggle" name="after-bottom-text" class="after-bottom-text" />
-        <ui:Button text="Button" display-tooltip-when-elided="true" name="teste" style="width: 600px; height: 500px;" />
     </ui:VisualElement>
 </ui:UXML>
