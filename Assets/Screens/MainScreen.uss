@@ -1,0 +1,46 @@
+.main-text {
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: normal;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    -unity-text-outline-width: 8px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.top-text {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 15%;
+    font-size: 150px;
+}
+
+.bottom-text {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    right: 0;
+    font-size: 150px;
+}
+
+.before-top-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30%;
+    font-size: 0;
+}
+
+.after-bottom-text {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: -30%;
+    font-size: 0;
+}
+
+.main-text:focus > Label {
+    color: rgb(0, 0, 0);
+}

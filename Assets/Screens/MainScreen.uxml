@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Screens/MainScreen.uss?fileID=7433441132597879392&amp;guid=8d2b35b40a1c9ef4c9ee94f290b5579d&amp;type=3#MainScreen" />
+    <Style src="project://database/Assets/Screens/Movement.uss?fileID=7433441132597879392&amp;guid=b54029f033d9e314ab48235504b1abf7&amp;type=3#Movement" />
+    <ui:VisualElement name="root" style="flex-grow: 1; align-items: center; justify-content: space-around;">
+        <ui:Toggle label="Toggle" name="before-top-text" class="before-top-text" />
+        <ui:Toggle label="Toggle" name="top-text" class="top-text" />
+        <ui:Toggle label="Toggle" name="middle-text" class="main-text" />
+        <ui:Toggle label="Toggle" name="bottom-text" class="bottom-text" />
+        <ui:Toggle label="Toggle" name="after-bottom-text" class="after-bottom-text" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="teste" style="width: 600px; height: 500px;" />
+    </ui:VisualElement>
+</ui:UXML>
